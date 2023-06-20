@@ -15,7 +15,14 @@ int main(void)
 
 	for (i = 1; i <= 50; i++)
 	{
-		printf("%ld, ", prev);
+		if (prev != 20365011074)
+		{
+			printf("%ld, ", prev);
+		}
+		else
+		{
+			printf("%ld\n", prev);
+		}
 		next = prev + curr;
 		prev = curr;
 		curr = next;
