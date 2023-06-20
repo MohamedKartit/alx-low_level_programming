@@ -9,16 +9,12 @@
  */
 int _islower(int c)
 {
-	int Islower;
-
 	if (c <= 'Z' && c >= 'A')
 	{
-		Islower = 0;
+		return (0);
 	}
 	else
 	{
-		Islower = 1;
+		return (1);
 	}
-
-	return (Islower);
 }
