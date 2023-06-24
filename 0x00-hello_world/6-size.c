@@ -3,7 +3,7 @@
 /**
  * main - prints the size of various types
  *
- * Return: Alwyas 9 (Success)
+ * Return: Alwyas 0 (Success)
  */
 int main(void)
 {
