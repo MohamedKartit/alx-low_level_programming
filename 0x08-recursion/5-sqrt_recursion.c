@@ -10,11 +10,11 @@
  */
 int _recursion_fun(int n, int i)
 {
-        if (i * i == n)
-                return (i);
-        else if (i * i > n)
-                return (-1);
-        return (_recursion_fun(n, i + 1));
+	if (i * i == n)
+		return (i);
+	else if (i * i > n)
+		return (-1);
+	return (_recursion_fun(n, i + 1));
 }
 
 /**
