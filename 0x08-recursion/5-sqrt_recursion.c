@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * recursion_fun - returns the value of the natural number of square of n
+ * _recursion_fun - returns the value of the natural number of square of n
  *
  * @n: the number to calculate sqaure to
  * @i: the squre number of the number
