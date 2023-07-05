@@ -11,4 +11,3 @@
 - [6-is_prime_number.c](./6-is_prime_number.c)
 - [main.h](./main.h)
 - [_putchar.c](./_putchar.c)
-- [README.md](./README.md)
