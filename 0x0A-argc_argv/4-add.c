@@ -52,11 +52,11 @@ int main(int argc, char *argv[])
 	}
 
 	for (count = 1; count < argc; count++)
-	{	
+	{
 		if (_atoi(argv[count]) >= 0)
 			result += _atoi(argv[count]);
 	}
-	
+
 	printf("%d\n", result);
 
 	return (0);
