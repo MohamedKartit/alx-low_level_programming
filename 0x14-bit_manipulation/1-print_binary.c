@@ -2,9 +2,9 @@
 
 /**
  * print_binary - prints the binary representation of a number.
- * @n - number to print as binary
+ * @n: number to print as binary
  */
-void print_binary(unsigned long int n) 
+void print_binary(unsigned long int n)
 {
 	if (n > 1)
 	{
