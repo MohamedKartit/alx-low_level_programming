@@ -11,7 +11,7 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int o, r;
+	int o, r, w;
 	char *buffer;
 	ssize_t counter;
 
@@ -28,7 +28,11 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	counter = 0;
 	while (buffer[counter])
-		_putchar(buffer[counter++]);
+	{
+		 w = write(1, &buffer[counter++], 1);
+		 if (w <= 0)
+			 return (0);
+	}
 	free(buffer);
 	return (counter);
 }
